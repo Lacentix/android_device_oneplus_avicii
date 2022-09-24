@@ -5,9 +5,9 @@
 #
 
 # Include the common OEM chipset BoardConfig.
--include device/oneplus/sm8250-common/BoardConfigCommon.mk
+-include device/oneplus/sm7250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/instantnoodlep
+DEVICE_PATH := device/oneplus/avicii
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -37,4 +37,4 @@ SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
 SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := $(DEVICE_PATH)/touch/include
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
+-include vendor/oneplus/avicii/BoardConfigVendor.mk

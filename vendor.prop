@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=OnePlus 8 Pro
+bluetooth.device.default_name=OnePlus Nord
 
 # USB
-vendor.usb.product_string=OnePlus 8 Pro
+vendor.usb.product_string=OnePlus Nord
